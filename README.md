@@ -1,4 +1,4 @@
-### 2. Capstone Project 2 — Semiconductor Yield Prediction
+### Semiconductor Yield Prediction
  
 A full end-to-end **machine learning pipeline** for predicting pass/fail outcomes in semiconductor manufacturing using signal sensor data.
  
@@ -15,8 +15,15 @@ A full end-to-end **machine learning pipeline** for predicting pass/fail outcome
 - Threshold tuning to maximize F1-score
 - Confusion matrix, ROC curve and Precision-Recall curve visualizations
 - Feature importance analysis (top 15 features)
-- Saved best model using `joblib`
+- Saved best model using joblib
+
+**Colab link:**
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/126vRqc64Mj908pWvgof8xVFqaPwJvAIp?usp=sharing)
  
-**Best Performing Model:** Random Forest — highest recall, precision and ROC-AUC
+**Best Performing Model:** Random Forest - highest recall, precision and ROC-AUC
  
 **Tools & Libraries:** scikit-learn, imbalanced-learn (SMOTE), pandas, numpy, matplotlib, seaborn, joblib
+
+*Author*
+
+*Rekha Dhorigol*
